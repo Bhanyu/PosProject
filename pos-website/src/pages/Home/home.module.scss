@@ -1,0 +1,904 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// @import '~bootstrap/scss/bootstrap';
+#nrspayPart{
+    background-image: url("https://www.posstore.az/static/media/banner11.cc415e33cd01387c4591.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 720px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    
+    &::after{
+        content: "";
+        position: absolute;
+        inset:0;
+        width: 100%;
+        background-color: hsla(251, 64%, 33%, 0.344);
+        z-index: 0;
+    }
+    @media (max-width:568px) {
+        height: 400px;
+     }
+     @media (min-width:569px) and (max-width:768px) {
+       height: 400px;
+       }
+    .container{
+
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 60px 0;
+        @media (max-width:992px) {
+         padding: 60px 10px;
+         }
+         @media (min-width:993px) {
+            padding: 60px 20px;
+            }
+      
+
+        .descriptionPart{
+          
+           position: absolute;
+           width: 40%;
+           z-index: 1;
+                   
+            @media (max-width:992px) {
+              width: 90%;
+              margin: 0 auto;
+            
+             }
+             @media (min-width:993px) {
+                width: 40%;
+                margin: 0 auto;
+              
+               }
+            
+            h1{
+                color: #fff;
+                font-size: 62px;
+                @media (max-width:568px) {
+                  font-size: 30px;
+                 }
+                 @media (min-width:569px) and (max-width:768px) {
+                   font-size: 40px;
+                  }
+            }
+            p{
+                color: #fff;
+    opacity: .8;
+    font-size: 18px;
+            }
+        }
+    }
+
+}
+#servicesTypes{
+ background-color: #F7F9FC;
+    max-width: 100%;
+    .container{
+   
+        max-width: 1300px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0;
+        @media (max-width:568px) {
+            max-width: 100%;
+            padding: 80px 15px;
+          }
+        .row{
+            max-width: 100%;
+            padding: 0;
+         
+            margin: 80px 0 0px;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            @media (max-width:568px) {
+              flex-direction: column;
+            
+             }
+             @media (min-width:569px) and (max-width:992px) {
+                flex-wrap: wrap;
+                justify-content: center;
+                
+                }
+            .col{
+             
+                padding: 0;
+             
+                width: 17%;
+
+                @media (max-width:568px) {
+                   width: 100%;
+                   margin: 20px 0;
+                 }
+                 @media (min-width:569px) and (max-width:768px) {
+                 width: 33%;
+                 margin: 20px 12px;
+                    }
+                    @media (min-width:769px) and (max-width:992px) {
+                     width: 40%;
+                     margin: 20px 10px;
+                        }
+                .card{
+                    box-shadow: 0 0 20px 0 #70798a2e;
+                    max-width: 100%;
+                    text-align: center;
+                    padding: 30px 10px;
+                    border: none;
+                    .cardİmg{
+                        max-width: 30%;
+
+                        margin: 10px auto 15px;
+                   
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#mainPages{
+    background-color: #122947;
+    max-width: 100%;
+    .container{
+    
+        max-width: 1300px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px 0;
+        color: #F7F9FC;
+        h2{
+            font-size: 50px;
+            // color: #122947;
+            @media (max-width:568px) {
+              font-size: 28px;
+                 
+                  }
+        }
+        p{
+            font-size: 20px;
+            color: #a9aeb8;
+        }
+        .fullScores{
+     
+            max-width: 100%;
+            margin: 50px 0 30px; 
+            .col{
+                background-color: transparent;
+            text-align: center;
+                
+                .scoreCard{
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: #F7F9FC;
+                    .cardİcon{
+                        background-color: #2A3F5A;
+                        padding: 10px;
+                        border-radius: 4% 50%;;
+                        width: 40%;
+                        padding: 35px 0;
+                        margin: 30px 0;
+                        @media (max-width:568px) {
+                         width: 30%;
+                          
+                           }
+                           @media (min-width:569px) and (max-width:992px) {
+                           width: 25%;
+                              
+                              }
+                        .innerIcon{
+                        color: #F7F9FC;
+                            font-size: 35px;
+                        }
+                    }
+                    .cardContent{
+                      h5{
+                        font-size: 50px;
+                        font-weight: bolder;
+                      }
+                      p{
+                        font-size: 20px;
+                       color: #707c92;
+                      }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#givenSectors{
+    background-color: #fff;
+    max-width: 100%;
+    .container{
+        max-width: 1300px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0 50px;
+        @media (max-width:568px) {
+          max-width: 100%;
+             
+              }
+        h2{
+            font-size: 50px;
+            color: #122947;
+            @media (max-width:568px) {
+               font-size: 28px;
+                 
+                  }
+        }
+        p{
+            font-size: 20px;
+            color: #a9aeb8;
+            @media (max-width:568px) {
+                font-size: 16px;
+                    
+                     }
+        }
+        .sectorsInnerParts{
+      
+            max-width: 100%;
+            margin-top: 40px;
+            .fullScores{
+                max-width: 100%;
+                margin: 0;
+                padding: 0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @media (max-width:568px) {
+               flex-direction: column;
+                     
+                      }
+                      @media (min-width:569px) and (max-width:992px) {
+                        flex-wrap: wrap;
+                           
+                           }
+                .col{
+                    max-width: 32%;
+                    margin: 20px 0px;
+                    @media (max-width:568px) {
+                        max-width: 100%;
+                         
+                          }
+                          @media (min-width:569px) and (max-width:992px) {
+                           max-width: 50%;
+                               
+                               }
+                
+                   .sectorLink{
+
+                    max-width: 100%;
+                    text-decoration: none;
+                    .sectorCard{
+                        max-width: 100%;
+                        box-shadow: 0 0 20px 0 #70798a2e;
+                        border: none;
+                      
+                        .sectorCardImg{
+                            max-width: 100%;
+                            border-radius: 5px 5px 0 0;
+                            img{
+                                max-width: 100%;
+                            
+                                object-fit: cover;
+                                border-radius: 5px 5px 0 0;
+                            }
+                        }
+                        .sectorCardContent{
+                           
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: flex-start;
+                            padding: 18px 12px 12px;
+                            border-radius: 0px 0px 5px 5px;
+                            .sectorCardContentLeft{
+                                text-align: left;
+                               h5{
+                                @media (max-width:568px) {
+                                    font-size: 18px;
+                                        
+                                         }
+                                         @media (min-width:569px) and (max-width:992px) {
+                                          font-size: 20px;
+                                               
+                                               }
+                               }
+                               p{
+                                @media (max-width:568px) {
+                                    font-size: 14px;
+                                        
+                                         }
+                                         @media (min-width:569px) and (max-width:992px) {
+                                           font-size: 16px;
+                                               
+                                               }
+                               }
+                                button{
+margin: 0px 0 18px;
+padding: 6px 15px;
+border-radius: 5px;
+border: none;
+color: #FF9C09;
+font-weight: bold;
+font-size:16px ;
+background-color: #FFF4E5;
+@media (max-width:568px) {
+  padding: 3px 12px;
+     
+      }
+
+                                }
+                                h5{
+                                    margin: 0;
+                                }
+                            }
+                            .sectorCardContentRight{
+                           
+                             .like{
+                                font-size:23px;
+                                color: #c0c3ca7c;
+                                @media (max-width:568px) {
+                                 font-size: 18px;
+                                     
+                                      }
+                             }
+                            }
+                        }
+                      
+                    }
+                   }
+                }
+            }
+        }
+    }
+}
+#SingleSectorPart{
+   
+    max-width: 100%;
+    .container{
+        max-width: 100%;
+   
+        .bgFon{
+            max-width: 100%;
+            background-image: url("https://www.posstore.az/static/media/about.63def4fd7afb973bcb1d.jpg");
+            background-size: cover;
+            // background-repeat: no-repeat;
+            background-position: center;
+            height: 40vh;
+            position: relative;
+            &::after{
+                content: "";
+                position: absolute;
+                inset: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(17, 40, 72, .629);
+                z-index:0;
+
+            }
+      
+            
+        }
+        .bgContent{
+                position: absolute;
+                top: 35%;
+                left: 10%;
+                color: #F7F9FC;
+                    @media (max-width:568px) {
+              top: 28%;
+                     
+                      }
+                      @media (min-width:569px) and (max-width:992px) {
+                        top: 30%;
+                           
+                           }
+                h1{
+                        font-size: 50px;
+    font-weight: 500;
+        @media (max-width:568px) {
+              font-size: 30px;
+                     
+                      }
+                      @media (min-width:569px) and (max-width:992px) {
+                       font-size: 32px;
+                           
+                           }
+                }
+            }
+            .singleCardsBox{
+      
+            max-width: 1400px;
+         
+            margin-top: 40px;
+           margin: 0 auto;
+                
+               
+                
+                display: flex;
+                // justify-content: center;
+                // align-items: center;
+                @media (max-width:568px) {
+               flex-direction: column;
+                     
+                      }
+                      @media (min-width:569px) and (max-width:992px) {
+                        flex-wrap: wrap;
+                           
+                           }
+                                           .sectorCard{
+                       
+                        box-shadow: 0 0 20px 0 #70798a2e;
+                        border: none;
+                        max-width: 32%;
+                    margin: 20px 12px;
+                      @media (max-width:568px) {
+                        max-width: 100%;
+                         
+                          }
+                          @media (min-width:569px) and (max-width:992px) {
+                           max-width: 50%;
+                               
+                               }
+                        .sectorCardImg{
+                            max-width: 100%;
+                            border-radius: 5px 5px 0 0;
+                            img{
+                                max-width: 100%;
+                            
+                                object-fit: cover;
+                                border-radius: 5px 5px 0 0;
+                            }
+                        }
+                        .sectorCardContent{
+                           
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: flex-start;
+                            padding: 18px 12px 12px;
+                            border-radius: 0px 0px 5px 5px;
+                            .sectorCardContentLeft{
+                                text-align: left;
+                                display: flex;
+                                flex-direction: column;
+                               h5{
+                                color: #BEC7D8;
+                                @media (max-width:568px) {
+                                    font-size: 18px;
+                                        
+                                         }
+                                         @media (min-width:569px) and (max-width:992px) {
+                                          font-size: 20px;
+                                               
+                                               }
+                               }
+                               p{
+                                @media (max-width:568px) {
+                                    font-size: 14px;
+                                        
+                                         }
+                                         @media (min-width:569px) and (max-width:992px) {
+                                           font-size: 16px;
+                                               
+                                               }
+                               }
+                                button{
+
+margin: 0px 0 18px;
+padding: 6px 15px;
+border-radius: 5px;
+border: none;
+      &.sales{
+margin: 0px 0 18px;
+
+
+color: #FF9C09;
+font-weight: bold;
+font-size:18px ;
+background-color: #FFF4E5;
+      }
+      &.additionalBtn{
+        background-color: #F1592A;
+        color: #F7F9FC;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        .basket{
+            margin-left: 5px;
+        }
+     
+  
+      
+      }
+      @media (max-width:568px) {
+  padding: 3px 12px;
+     
+      }
+
+                                }
+                                h5{
+                                    margin: 0;
+                                }
+                                p{
+                                    color: #BEC7D8;
+                                }
+                            }
+                            .sectorCardContentRight{
+                           
+                             .like{
+                                font-size:23px;
+                                color: #BEC7D8;
+                                @media (max-width:568px) {
+                                 font-size: 18px;
+                                     
+                                      }
+                             }
+                            }
+                        }
+                      
+                    }
+              
+            
+        }
+    }
+}
+#mainAdvantages{
+   
+    max-width: 100%;
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0 50px;
+        h2{
+            font-size: 50px;
+            color: #122947;
+            @media (max-width:568px) {
+               font-size: 28px;
+                 
+                  }
+        }
+        p{
+            font-size: 20px;
+            color: #a9aeb8;
+            @media (max-width:568px) {
+                font-size: 16px;
+                    
+                     }
+        }
+        .advantagesInnerParts{
+            max-width: 100%;
+            margin-top: 40px;
+            .fullAdvantages{
+                max-width: 100%;
+                margin: 0;
+                padding: 0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @media (max-width:568px) {
+               flex-direction: column;
+                     
+                      }
+                      @media (min-width:569px) and (max-width:992px) {
+                        flex-wrap: wrap;
+                           
+                           }
+                           .advCol{
+                            max-width: 32%;
+                            margin: 20px 0px;
+                            @media (max-width:568px) {
+                                max-width: 100%;
+                                 
+                                  }
+                                  @media (min-width:569px) and (max-width:992px) {
+                                   max-width: 50%;
+                                       
+                                       }
+                        
+                                       .advCard{
+                                        max-width: 100%;
+                                        box-shadow: 0 0 20px 0 #70798a2e;
+                                        border: none;
+                                      
+                                        .advCardImg{
+                                            max-width: 100%;
+                                            border-radius: 5px 5px 0 0;
+                                            position: relative;
+                                            &::after{
+                                                content: "";
+                                                position: absolute;
+                                                width: 100%;
+                                                inset: 0;
+                                                background-color: #3030319f;
+                                            }
+                                            img{
+                                                max-width: 100%;
+                                            
+                                                object-fit: cover;
+                                                border-radius: 5px 5px 0 0;
+                                            }
+                                        }
+                                        .advCardContent{
+                                           
+                                          
+                                          
+                                      
+                                            border-radius: 0px 0px 5px 5px;
+                                            position: absolute;
+                                          
+                                            inset: 0;
+                                            height: 100%;
+                                          
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            h5{
+                                                color: #F7F9FC;
+                                                font-size: 28px;
+                                                font-weight: 500;
+                                                margin-bottom: 10px;
+                                            }
+                                          
+                                        }
+                                      
+                                    }
+                        }
+                     
+        }
+    }
+    }
+}
+#customersPart{
+   
+    max-width: 100%;
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0 50px;
+        h2{
+            font-size: 50px;
+            color: #122947;
+            @media (max-width:568px) {
+               font-size: 28px;
+                 
+                  }
+        }
+        p{
+            font-size: 20px;
+            color: #a9aeb8;
+            @media (max-width:568px) {
+                font-size: 16px;
+                    
+                     }
+        }
+        .customersInnerParts{
+            max-width: 100%;
+            margin-top: 40px;
+            .fullCustomers{
+                max-width: 100%;
+                margin: 0;
+                padding: 0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @media (max-width:568px) {
+               flex-direction: column;
+                     
+                      }
+                      @media (min-width:569px) and (max-width:992px) {
+                        flex-wrap: wrap;
+                           
+                           }
+                           .cstmCol{
+                            max-width: 32%;
+                            margin: 20px 0px;
+                            @media (max-width:568px) {
+                                max-width: 100%;
+                                 
+                                  }
+                                  @media (min-width:569px) and (max-width:992px) {
+                                   max-width: 50%;
+                                       
+                                       }
+                        
+                                       .cstmCard{
+                                        max-width: 100%;
+                                        box-shadow: 0 0 20px 0 #70798a2e;
+                                        border: none;
+                                      
+                                        .cstmCardImg{
+                                            max-width: 25%;
+                                            background-color: red;
+                                            margin: 80px auto 20px;
+                                            border-radius: 50%;
+                                            position: relative;
+                                        
+                                            outline-offset: 23px;
+                                            outline-width: 10px;
+                                            outline-style: solid ;
+                                            outline-color: #edf0f5;
+                                            // border-radius: 5px 5px 0 0;
+                                          
+                                         
+                                            img{
+                                                max-width: 100%;
+                                                border-radius: 50%;
+                                                object-fit: cover;
+                                                // border-radius: 5px 5px 0 0;
+                                            }
+                                            .thick{
+                                                position: absolute;
+                                                top: 40%;
+                                                left: 94%;
+                                               background-color: rgb(0, 76, 255);
+                                               color: white;
+                                               border-radius: 30px;
+                                                font-weight: 700;
+                                                font-size: 18px;
+                                            
+                                            }
+                                        }
+                                        .cstmCardContent{
+                                           
+                                          
+                                          
+                                      
+                                            border-radius: 0px 0px 5px 5px;
+                                           
+                                          
+                                         
+                                          margin: 20px 0;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            flex-direction: column;
+                                            p{
+                                                margin: 15px 0;
+                                            }
+                                            h5{
+                                                color:#2A3F5A;
+                                                font-size: 20px;
+                                                font-weight: 500;
+                                                margin-bottom: 10px;
+                                            }
+                                          
+                                            .cstmCardContentLinks{
+                                              margin: 12px 0;
+                                                display: flex;
+                                                button{
+                                                  
+                                                    height: 40px;
+                                                   
+                                                    margin: 5px;
+                                                    width: 40px;
+                                                    background-color: #f4f5f7;
+                                                    display: flex;
+
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    text-align: center;
+                                                    border:none ;
+    border-radius: 50%;
+                                                    .social{
+                                                        font-size: 18px;
+                                                        color: grey;
+                                                    
+   
+                                                    }
+                                                }
+                                            }
+                                        }
+                                      
+                                    }
+                        }
+                     
+        }
+    }
+    }
+}
+#mainSponsors{
+   
+    max-width: 100%;
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0 50px;
+        h2{
+            font-size: 50px;
+            color: #122947;
+            @media (max-width:568px) {
+               font-size: 28px;
+                 
+                  }
+        }
+        p{
+            font-size: 20px;
+            color: #a9aeb8;
+            @media (max-width:568px) {
+                font-size: 16px;
+                    
+                     }
+        }
+        .sponsorssInnerParts{
+            max-width: 100%;
+            margin-top: 40px;
+            .fullCustomers{
+                max-width: 100%;
+                margin: 0;
+                padding: 0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @media (max-width:568px) {
+               flex-direction: column;
+                     
+                      }
+                      @media (min-width:569px) and (max-width:992px) {
+                        flex-wrap: wrap;
+                           
+                           }
+                           .cstmCol{
+                            max-width: 30%;
+                            margin: 20px 12px;
+                         
+                            padding: 0px;
+                            height: 400px;
+                            @media (max-width:568px) {
+                                max-width: 90%;
+                                margin: 20px 0;
+                                height: 300px;
+                                 
+                                  }
+                                  @media (min-width:569px) and (max-width:992px) {
+                                   max-width: 50%;
+                                       
+                                       }
+                        
+                                       .cstmCard{
+                                        max-width: 100%;
+                                        box-shadow: 0 0 20px 0 #70798a2e;
+                                        border: none;
+                                        height: 100%;
+                                        padding: 25px 20px;
+                                        @media (max-width:568px) {
+                                           padding:  15px;
+                                             
+                                              }
+                                        .cstmCardImg{
+                                            max-width: 100%;
+                                         height: 100%;
+                                           
+                                         
+                                            img{
+                                                max-width: 100%;
+                                             height: 100%;
+                                                object-fit: cover;
+                                                // border-radius: 5px 5px 0 0;
+                                            }
+                                          
+                                        }
+                                      
+                                      
+                                    }
+                        }
+                     
+        }
+    }
+    }
+}
+
+
+
