@@ -8,8 +8,6 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiTicktick } from "react-icons/si";
 
-
-
 const Customers = () => {
   const [customers, setCustomers] = useState([]);
 
@@ -40,7 +38,7 @@ const Customers = () => {
         customerImg: "https://www.posstore.az/images/customer/team-5.jpg",
       },
     ]);
-  });
+  }, [customers]);
 
   return (
     <section id={styles.customersPart}>
@@ -64,9 +62,7 @@ const Customers = () => {
                   <div className={classNames("card", styles.cstmCard)}>
                     <div className={styles.cstmCardImg}>
                       <img src={customer.customerImg} alt="" />
-                      <SiTicktick className={styles.thick}/>
- 
-
+                      <SiTicktick className={styles.thick} />
                     </div>
                     <div className={styles.cstmCardContent}>
                       <p>
@@ -79,10 +75,10 @@ const Customers = () => {
                           <FaFacebook className={styles.social} />
                         </button>
                         <button>
-                          <FaLinkedin className={styles.social}/>
+                          <FaLinkedin className={styles.social} />
                         </button>
                         <button>
-                          <FaTwitter className={styles.social}/>
+                          <FaTwitter className={styles.social} />
                         </button>
                         <button>
                           <FaInstagram className={styles.social} />

@@ -34,7 +34,7 @@ useEffect(()=>{
             sponsorImg:"https://www.posstore.az/100.jpg"
         }
     ])
-})
+},[sponsors])
 
 
 
